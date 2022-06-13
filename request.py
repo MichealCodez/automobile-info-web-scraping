@@ -7,7 +7,7 @@ def send_request(url):
     response = requests.get(
         url='https://app.scrapingbee.com/api/v1/',
         params={
-            'api_key': '4X6JHK5CR705YQJWJSIF4PQVN6HH6ECY4UDH2B8JY672FV188LRG94W5ML9GVTB090T24SIOE31XBV1E',
+            'api_key': 'your_api_key',
             'url': url,
         },
 
